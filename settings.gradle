@@ -1,0 +1,5 @@
+include ':apt-compiler'
+include ':apt-annotation'
+include ':module_comm'
+include ':app'
+rootProject.name = "Common"

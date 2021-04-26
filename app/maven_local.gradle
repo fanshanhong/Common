@@ -1,0 +1,9 @@
+apply plugin: 'maven'
+uploadArchives {
+    repositories.mavenDeployer {
+        pom.version = '1.0.0'
+        pom.artifactId = 'myapi'
+        pom.groupId = 'com.fan.componentization.myapi'
+        repository(url: "file:///Volumes/Mechanical/G/maven/local-repo/")
+    }
+}
